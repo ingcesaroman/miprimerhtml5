@@ -24,7 +24,7 @@
     <label for="username">Email</label> 
     <input id="username" type="text" placeholder="email" required>
     <label for="password">Password:</label>
-    <input id="password" type="password" placeholder="password" required minlength="8">
+    <input id="password" type="password" placeholder="password" pattern=.{5,8} required title="de 5 a 8 caracteres permitidos">
     <input type="submit">
 </form>
 
