@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login </title>
+</head>
+<body>
+<h1>Login</h1>
+<!-- action -a donde la forma manda la info-->
+<!-- mothod - lo que el metodo HTTP (optiene/publica)-->
+<!-- 
+<form action="https://es.wikipedia.org/" method="GET">
+    <label>
+        Username:
+        <input name="username" type="text" placeholder="username">
+    </label>
+    <label>
+        Password:
+        <input name="password" type="password" placeholder="password">    
+    </label>        
+    <input type="submit">
+</form>
+-->
+<form action="https://es.wikipedia.org/" method="GET">
+    <label for="username">Email</label> 
+    <input id="username" type="text" placeholder="email" required>
+    <label for="password">Password:</label>
+    <input id="password" type="password" placeholder="password" required minlength="8">
+    <input type="submit">
+</form>
+
+<p> Que mascota prefieres?</p>
+<form>
+<label for="dogs">Perros:</label>
+<input name="pertchoice" id="dogs" type="radio" value="DOGS">
+
+<label for="cats">Gatos:</label>
+<input name="pertchoice" id="cats" type="radio" value="CATS">
+
+<select name="color">
+    <option>Negro</option>
+    <option>Cafe</option>
+    <option>Blanco</option>
+</select>
+
+<button>Decidir!</button>
+</form>
+
+</body>
+</html>
